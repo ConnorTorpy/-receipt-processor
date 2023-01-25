@@ -2,14 +2,16 @@ package main
 
 
 type hashTable struct{
-    receipts []receipt
-    size int
+    points []int
+    ids    []string
+    size   int
 }
 
 func Init(size int) *hashTable {
     table := &hashTable{}
     table.size = size
-    table.receipts = make([]receipt, int(size))
+    table.points = make([]int, int(size))
+    table.ids = make([]string, int(size))
     return table
 }
 
