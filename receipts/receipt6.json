@@ -1,0 +1,21 @@
+{
+	"retailer": "Bed Bath & Beyond",
+	"purchaseDate": "2022-03-31",
+	"purchaseTime": "16:33",
+	"items": [
+		{
+			"shortDescription": "Towels",
+			"price": "10.00"
+		},{
+			"shortDescription": "Towels",
+			"price": "20.00"
+		},{
+			"shortDescription": "Towels",
+			"price": "100.00"
+		},{
+			"shortDescription": "Towels",
+			"price": "500.00"
+		}
+	],
+	"total": "630.00"
+}

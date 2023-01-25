@@ -1,0 +1,21 @@
+{
+	"retailer": "l",
+	"purchaseDate": "2022-03-20",
+	"purchaseTime": "15:00",
+	"items": [
+		{
+			"shortDescription": "f",
+			"price": "2.25"
+		},{
+			"shortDescription": "i",
+			"price": "2.25"
+		},{
+			"shortDescription": "h",
+			"price": "2.25"
+		},{
+			"shortDescription": "a",
+			"price": "2.25"
+		}
+	],
+	"total": "9.00"
+}

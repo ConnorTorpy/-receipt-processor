@@ -1,0 +1,23 @@
+{
+	"retailer": "Gooseberries",
+	"purchaseDate": "2022-01-26",
+	"purchaseTime": "00:00",
+	"total": "17.75",
+	"items": [
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Dasani", "price": "1.50"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"},
+		{"shortDescription": "Apples", "price": "1.25"}
+	]
+}
+

@@ -1,0 +1,29 @@
+receipt1 - 15 points
+receipt2 - 31 points
+receipt3 - 28 points
+receipt4 - 109 points
+receipt5 - 419 points 
+receipt6 - 230 points
+receipt7 - 4013 points
+receipt8 - 86 points
+receipt9 - 98 points
+receipt10 - 28 points
+receipt11 - 96 points
+
+
+receipts 1-4 are the given examples
+receipt 5 tests the system by providing a large number (128) items on a receipt
+receipt 6 attempts to break the rounding by having multiple of 3 description items with costs that are multiples of 5
+receipt 7 attempts to break the system with a retailer description of over 4k characters
+receipt 8 has a large quantity of items that need their price *.2 added
+receipt 9 has a retailer with a large quantity of non-alphanumeric characters and items whose description would be a multiple of 3
+if the trim is not done properly
+receipt 10 is very similar to receipt 3 except all items have had all normal characters replaced with random garbage and large numbers of
+spaces added to the front and end of each item as well as some non alphanumeric characters added to the retailer
+receipt 11 attempts to break the system with 1 character names for items and retailer
+
+11 test cases so that all can be posted at once which will have forced a resize and cause incorrect return results if
+it did not process correctly
+
+ran the system by adding all 11 receipts then reading the points of all 11 receipts and got the values shown at the top of this
+file

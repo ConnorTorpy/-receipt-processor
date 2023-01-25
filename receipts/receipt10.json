@@ -1,0 +1,24 @@
+{
+	"retailer": "!%$#)&Target",
+	"purchaseDate": "2022-01-01",
+	"purchaseTime": "13:01",
+	"items": [
+		{
+			"shortDescription": "                      @!#!%!@#^&*$(!)@(           ",
+			"price": "6.49"
+		},{
+			"shortDescription": "     !@(#&$)!(#*^^$_)#*                                                           ",
+			"price": "12.25"
+		},{
+			"shortDescription": "                                                       !#@($)!&!^)(#$*!^_)*    ",
+			"price": "1.26"
+		},{
+			"shortDescription": " !@#$*!^^_!&#($@_#& !",
+			"price": "3.35"
+		},{
+			"shortDescription": "   !)#$&)(#&%$ $%)_$&)!@$#(  ",
+			"price": "12.00"
+		}
+	],
+	"total": "35.35"
+}
