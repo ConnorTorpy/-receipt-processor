@@ -5,9 +5,6 @@ import (
     "github.com/gin-gonic/gin"
 )
 
-type hashTable struct{
-    receipts [size]receipt
-}
 
 type receipt struct{
 	Retailer     string `json:"retailer"`
@@ -21,12 +18,6 @@ type item struct{
 	ShortDescription string `json:"shortDescription"`
 	Price            string `json:"price"`
 }
-
-func insert(table hashTable, key string, value int){
-
-
-}
-
 
 
 func getPoints(context *gin.Context){

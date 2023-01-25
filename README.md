@@ -1,1 +1,1 @@
-# -receipt-processor
+# receipt-processor

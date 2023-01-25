@@ -1,4 +1,4 @@
-module github.com/ConnorTorpy/-receipt-processor
+module github.com/ConnorTorpy/receipt-processor
 
 go 1.13
 
