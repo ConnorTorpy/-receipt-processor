@@ -110,12 +110,12 @@ func postReceipt (context *gin.Context){
     fmt.Println("Odd Date Points Received: ", points)
 
     //points from time of purchase
-    hour, err := strconv.Atoi(newReceipt.PurchaseTime[0:1])
+    hour, err := strconv.Atoi(newReceipt.PurchaseTime[0:2])
     if err != nil {
         context.String(400, "The receipt is invalid, did not get numbers in first two digits of time\n")    
     }
     if hour >= 14 && hour < 16 {
-        points += 6
+        points += 10
     }
     fmt.Println("Purchase Time Points Received: ", points)
 
